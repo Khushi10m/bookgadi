@@ -1,0 +1,201 @@
+/* make margin padding zero for body tag*/
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* navbar styling*/
+.signinbtn{
+  width: 110px;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 2rem;
+} 
+  .signinbtn:hover{
+    color: rgb(252, 247, 247);
+    background-color: rgb(12, 10, 10);
+
+  }
+  .nav-link{
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  .nav-link:hover{
+    border: 1px solid rgb(242, 239, 239);
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+  }
+/* Service styling*/
+.para {
+  padding-bottom: 1rem;
+  background-color: #252424;
+  color: #fff;
+  margin-top: 1rem;
+
+}
+
+.heading {
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.heading a {
+  text-decoration: none;
+  font-size: large;
+  color: #ffff;
+}
+
+.collapsebtn {
+  padding:1rem 1rem;
+  color: white;
+  text-align: left;
+  margin: 1rem 3rem;
+}
+/* ---------------------- */
+.services{
+  background-color: rgb(217, 213, 208);
+  padding: 1rem 1rem;
+}
+.services-list{
+  margin-top: 2rem;
+
+}
+.services-list h3 {
+  color: rgb(37, 34, 37);
+  text-align: center;
+}
+
+.services h4 {
+  color: rgb(68, 150, 209);
+  text-align: center;
+  margin: auto;
+}
+
+
+/*========footer section======*/
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: rgb(46, 96, 139);
+    padding-bottom: 0.5rem;
+  }
+  
+  .footlist ul {
+    list-style: none;
+  
+  }
+  
+  .footlist ul li {
+    text-align: center;
+    align-items: center;
+  
+  
+  }
+  
+  .footlist ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+  }
+  
+  .col-lg-4 p {
+    color: white;
+  }
+  .copyrt{
+    background-color: #a09e9e;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #393737;
+  
+  }
+  #box .col-lg-4 li {
+    list-style: none;
+  
+  }
+  
+  #box .col-lg-4 li a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(17, 17, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #box .col-lg-4 p {
+    padding: 20px;
+    color: rgb(16, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 1rem;
+  }
+  footer {
+    padding-bottom: 1rem;
+    min-height: 100vh;
+  }
+  .footer-top{
+    background-color: rgb(46, 96, 139);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .footerList{
+   margin-top: 2rem;
+  }
+  .footerList h4{
+    text-align: center;
+    color: #fff;
+  }
+  .footerList ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  .copyrt{
+    background-color: #a09e9e;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #393737;
+    margin-top: 10px;
+  
+  }
+  @media (min-width:280px) and (max-width: 990px) {
+      .card{
+      margin-top: 1rem;
+    }
+    .collapsebtn{
+      margin: 5px 5px;
+      padding: 10px 20px;
+    }
+    .contacthead h2{
+      font-size:20px;
+    }
+    .contactData{
+      padding: 10px 10px;    
+    }
+    .contactData h3{
+      font-size: 16px;
+      padding: 10px 10px;
+    }
+    #main{
+      min-height: 200px;
+    }
+    .contacthead{
+      margin-bottom: 10px;
+    }
+   .copyrt{
+    font-size: smaller;
+   }
+     
+  }  
+  
